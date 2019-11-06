@@ -33,3 +33,7 @@ Let ![](https://latex.codecogs.com/gif.latex?y_i) be the number of T cells that 
 ![](https://latex.codecogs.com/gif.latex?g_3%28y_i%29) is the rate of T cell contraction after antigenic stimulation. The T cell population decays with constant ![](https://latex.codecogs.com/gif.latex?u).
 
 ![](https://latex.codecogs.com/gif.latex?g_3%3Duy_i)
+
+## Stochastic Modeling
+The constants ![](https://latex.codecogs.com/gif.latex?r_i), ![](https://latex.codecogs.com/gif.latex?s_i), and ![](https://latex.codecogs.com/gif.latex?q_i) are specific to each cancer clone. These are determined at the start of the model by sampling from a normal distribution with increasing (![](https://latex.codecogs.com/gif.latex?r_i) and ![](https://latex.codecogs.com/gif.latex?q_i)) or decreasing (![](https://latex.codecogs.com/gif.latex?s_i)) mean for each clone to depict increased aggressiveness.
+
